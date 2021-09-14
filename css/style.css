@@ -33,7 +33,7 @@ p {
   line-height: 2rem;
 }
 
-.material-icons {
+.sidenav-trigger {
   color: #73fdd5;
 }
 
@@ -86,9 +86,6 @@ p {
     padding: 0 10px;
   }
 
-  .btn-registrazione{
-  width: 100%;
-  }
 }
 
 .container-servizi {
@@ -135,7 +132,6 @@ p {
 }
 
 .btn-registrazione{
-  width: 50%;
   background-color: #ffd736;
   color: #424242;
 }
