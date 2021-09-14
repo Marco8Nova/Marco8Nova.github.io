@@ -8,11 +8,17 @@
 
 nav ul a,
 nav .brand-logo {
-  color: #e57373;
+  color: #73fdd5;
 }
 
 nav .brand-logo {
   font-family: 'Satisfy', cursive;
+}
+
+nav .right-nav {
+  font-family: 'Satisfy', cursive;
+   color: #ffd736;
+  font-size: 1.8em;
 }
 
 nav .nav-wrapper {
@@ -28,8 +34,9 @@ p {
 }
 
 .sidenav-trigger {
-  color: #e57373;
+  color: #424242;
 }
+
 
 .parallax-container {
   min-height: 380px;
@@ -53,6 +60,14 @@ p {
   font-size: 1.3em;
 }
 
+.btn-intro {
+  background-color: #73fdd5;
+  color: #424242
+}
+.btn-intro:hover {
+  background-color:#ffd736;
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -70,11 +85,12 @@ p {
   nav .nav-wrapper {
     padding: 0 10px;
   }
- .icon-Ospita{
-  font-size: 7em;
-  margin-top: 65px;
+
 }
 
+.container-servizi {
+  width: 100%;
+  height: 100%;
 }
 
 
@@ -82,6 +98,16 @@ p {
   margin-top: 60px;
   margin-bottom: 100px;
 }
+
+.audio-icon{
+  color: #73fdd5;
+}
+
+.light-icon{
+  color: #ffd736;
+}
+
+
 
 .icon-block {
   padding: 0 15px;
@@ -106,37 +132,24 @@ p {
 }
 
 .btn-registrazione{
-  width: 100%;
+  width: 50%;
+  background-color: #ffd736;
+  color: #424242;
+}
+
+.btn-registrazione:hover {
+  background-color:#73fdd5;
 }
 
 .icon-registrazione{
   font-size: 7em;
   margin-top: 100px;
+  color: #73fdd5
 }
 
-.section-ospita {
-  width: 100%;
-  height: 100%;
- }
-
-.Ospita-subtitle{
-  font-size: 1.3em;
-  margin-top: 5%;
-  line-height: 2em;
-}
-
-.btn-Ospita{
-  width: 100%;
-}
-
-.icon-Ospita{
-  font-size: 7em;
-  margin-top: 100px;
-}
 
 footer.page-footer {
   margin: 0;
-  background-color:#3D5467;
 }
 
 .Footer-icons{
@@ -146,5 +159,9 @@ footer.page-footer {
 }
 
 .Footer-icons:hover {
-  color:#e57373;
+  color:#73fdd5;
+}
+
+.footer-logo{
+  color:#73fdd5 ;
 }

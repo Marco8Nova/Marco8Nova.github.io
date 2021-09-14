@@ -5469,7 +5469,6 @@ $jscomp.polyfill = function (e, r, p, m) {
 
       _this30.el.M_Sidenav = _this30;
       _this30.id = _this30.$el.attr('id');
-
       /**
        * Options for the Sidenav
        * @member Sidenav#options
@@ -5518,7 +5517,6 @@ $jscomp.polyfill = function (e, r, p, m) {
 
     _createClass(Sidenav, [{
       key: "destroy",
-
 
       /**
        * Teardown component
