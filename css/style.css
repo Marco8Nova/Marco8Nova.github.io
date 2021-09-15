@@ -62,7 +62,7 @@ p {
 
 .btn-intro {
   background-color: #73fdd5;
-  color: #424242
+  color: #000000;
 }
 .btn-intro:hover {
   background-color:#ffd736;
@@ -132,7 +132,7 @@ p {
 
 .btn-registrazione{
   background-color: #ffd736;
-  color: #424242;
+  color: #000000;
 }
 
 .btn-registrazione:hover {
